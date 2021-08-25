@@ -1,9 +1,8 @@
 import React from 'react';
-import { footer } from '../styles/footer.module.css';
 
-function Footer({ background }) {
+function Footer() {
 	return (
-		<footer className={footer} style={{ backgroundColor: { background } }}>
+		<footer className='footer'>
 			<p>
 				&copy; <span>{new Date().getFullYear()}</span> Build by{' '}
 				<span>Kevin Fabel</span>. Powered by{' '}
