@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import UseAnimations from 'react-useanimations';
-import menu4 from 'react-useanimations/lib/menu4';
+import { MdDehaze } from 'react-icons/md';
 
 const Navbar = () => {
 	const [show, setShow] = useState(false);
@@ -11,8 +10,8 @@ const Navbar = () => {
 				<Link to="/" className="header-name">
 					Kevin Fabel
 				</Link>
-				<button className="button" onClick={() => setShow(!show)}>
-					<UseAnimations animation={menu4} size={70} strokeColor="white" />
+				<button className="nav-button" onClick={() => setShow(!show)}>
+					<MdDehaze style={{ color: 'white', fontSize: '2.5rem' }} />
 				</button>
 			</div>
 			<div className={show ? 'links-container show-link' : 'links-container'}>

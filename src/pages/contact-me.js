@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import Seo from '../components/SEO';
 
 function contactMe() {
 	return (
 		<Layout>
+			<Seo title='Contact-me' />
 			<main className="lets-talk">
 				<h1>Reach out!</h1>
 				<section>

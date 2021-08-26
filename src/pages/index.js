@@ -7,10 +7,12 @@ import download from 'react-useanimations/lib/download';
 import '../styles/main.css';
 import ParticleBackground from '../particle/ParticleBackground';
 import downloadFile from '../static/stop-cv-format.pdf';
+import Seo from '../components/SEO';
 
 function index() {
 	return (
 		<Layout className="layout">
+			<Seo title="Main page" />
 			<section className="hero">
 				<ParticleBackground className="partilces" />
 				<div className="text">
@@ -21,7 +23,7 @@ function index() {
 
 				<div className="flex">
 					<a
-						href="https://www.linkedin.com/"
+						href="https://www.linkedin.com/in/kevin-fabel/"
 						target="_blank"
 						rel="noreferrer"
 						className="icons"
