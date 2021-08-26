@@ -4,8 +4,8 @@ import Layout from '../components/Layout';
 function contactMe() {
 	return (
 		<Layout>
-			<main className="csa">
-				<h1>Let's talk</h1>
+			<main className="lets-talk">
+				<h1>Reach out!</h1>
 				<section>
 					<form
 						className="form"
@@ -13,18 +13,43 @@ function contactMe() {
 						method="POST"
 					>
 						<div className="form-row">
-							<label htmlFor="name">Enter your name</label>
-							<input type="text" name="name" id="name" />
+							<label className="lable" htmlFor="name">
+								Enter your name
+							</label>
+							<input
+								className="input"
+								type="text"
+								name="name"
+								id="name"
+								required
+							/>
 						</div>
 						<div className="form-row">
-							<label htmlFor="email">Enter your email</label>
-							<input type="email" name="email" id="email" />
+							<label className="lable" htmlFor="email">
+								Enter your email
+							</label>
+							<input
+								className="input"
+								type="email"
+								name="email"
+								id="email"
+								required
+							/>
 						</div>
 						<div className="form-row">
-							<label htmlFor="message">Message</label>
-							<input type="textarea" name="message" id="message" />
+							<label className="message-lable" htmlFor="message">
+								Message
+							</label>
+							<textarea
+								className="texterea"
+								type="textarea"
+								name="message"
+								id="message"
+								rows='4'
+								required
+							/>
 						</div>
-						<button type="submit" className="asxa">
+						<button type="submit" className="submit-btn">
 							Submit
 						</button>
 					</form>
