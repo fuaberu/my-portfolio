@@ -2,95 +2,51 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/SEO';
+import PortfolioCard from '../components/PortfolioCard';
 
 function portfolio() {
 	return (
-		<section className="portfolio-container">
-			<Seo title='Portfolio' />
+		<main className="portfolio-container">
+			<Seo title="Portfolio" />
 			<Layout>
 				<h1>Portfolio</h1>
-				<div className="portfolio-card">
+				<PortfolioCard
+					stacks={[
+						{ icon: 'html5-plain colored', text: 'HTML' },
+						{ icon: 'javascript-plain colored', text: 'JavaScript' },
+						{ icon: 'sass-original colored', text: 'SASS' },
+						{ icon: 'react-original colored', text: 'React' },
+					]}
+					title="fake store"
+					liveLink="https://my-ecommerce-3ce47.web.app/"
+					gitLink="https://github.com/fuaberu/ecommerce-website"
+				>
 					<StaticImage
-						src="../static/images/nigiri-with-souce.jpg"
-						alt="image"
+						src="../assets/eCommerce.png"
+						alt="mobile view of the eCommerce website"
 						className="portfolio-img"
 						placeholder="blurred"
 					/>
-					<div className="portfolio-text">
-						<h2>Project name</h2>
-						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-							eveniet voluptatem earum dolorum possimus eos.
-						</p>
-						<div className="page-links">
-							<a href="http://">page</a>
-							<a href="http://">git</a>
-						</div>
-						<div className="stacks">
-							<i>html</i>
-							<i>java script</i>
-							<i>css</i>
-							<i>react</i>
-						</div>
-					</div>
-				</div>
-				<hr
-					style={{
-						color: 'blue',
-					}}
-				/>
-				<div className="portfolio-card">
+				</PortfolioCard>
+				<PortfolioCard
+					stacks={[
+						{ icon: 'html5-plain colored', text: 'HTML' },
+						{ icon: 'javascript-plain colored', text: 'JavaScript' },
+						{ icon: 'sass-original colored', text: 'SASS' },
+					]}
+					title="Weather App"
+					liveLink="https://weather-visualiser.netlify.app/"
+					gitLink="https://github.com/fuaberu/weather-app"
+				>
 					<StaticImage
-						src="../static/images/nigiri-with-souce.jpg"
-						alt="image"
+						src="../assets/weather.png"
+						alt="mobile view of the eCommerce website"
 						className="portfolio-img"
 						placeholder="blurred"
 					/>
-					<div className="portfolio-text">
-						<h2>Project name</h2>
-						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-							eveniet voluptatem earum dolorum possimus eos.
-						</p>
-						<div className="page-links">
-							<a href="http://">page</a>
-							<a href="http://">git</a>
-						</div>
-						<div className="stacks">
-							<i>html</i>
-							<i>java script</i>
-							<i>css</i>
-							<i>react</i>
-						</div>
-					</div>
-				</div>
-				<div className="portfolio-card">
-					<StaticImage
-						src="../static/images/nigiri-with-souce.jpg"
-						alt="image"
-						className="portfolio-img"
-						placeholder="blurred"
-					/>
-					<div className="portfolio-text">
-						<h2>Project name</h2>
-						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-							eveniet voluptatem earum dolorum possimus eos.
-						</p>
-						<div className="page-links">
-							<a href="http://">page</a>
-							<a href="http://">git</a>
-						</div>
-						<div className="stacks">
-							<i>html</i>
-							<i>java script</i>
-							<i>css</i>
-							<i>react</i>
-						</div>
-					</div>
-				</div>
+				</PortfolioCard>
 			</Layout>
-		</section>
+		</main>
 	);
 }
 
