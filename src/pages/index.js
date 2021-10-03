@@ -31,6 +31,7 @@ function index() {
 						<UseAnimations
 							animation={linkedin}
 							size={56}
+							strokeColor="white"
 							wrapperStyle={{ padding: 2 }}
 						/>
 					</a>
@@ -43,6 +44,7 @@ function index() {
 						<UseAnimations
 							animation={github}
 							size={56}
+							strokeColor="white"
 							wrapperStyle={{ padding: 2 }}
 						/>
 					</a>
@@ -55,6 +57,7 @@ function index() {
 						<UseAnimations
 							animation={download}
 							size={56}
+							strokeColor="white"
 							wrapperStyle={{ padding: 2, cursor: 'pointer' }}
 						/>
 					</a>

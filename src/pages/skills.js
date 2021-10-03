@@ -6,14 +6,15 @@ import javascript from 'devicon/icons/javascript/javascript-original.svg';
 import git from 'devicon/icons/git/git-original.svg';
 import react from 'devicon/icons/react/react-original.svg';
 import gatsby from 'devicon/icons/gatsby/gatsby-original.svg';
+import sass from 'devicon/icons/sass/sass-original.svg';
 import Seo from '../components/SEO';
 
 function skills() {
 	return (
 		<main className="skills-container">
-			<Seo title='Skills' />
+			<Seo title="Skills" />
 			<Layout>
-					<h1>skills</h1>
+				<h1>skills</h1>
 				<div className="skills-section">
 					<div className="skill-div">
 						<img className="skills-imgs" src={html} alt="fcce" />
@@ -28,6 +29,10 @@ function skills() {
 						<p>javascript</p>
 					</div>
 					<div className="skill-div">
+						<img className="skills-imgs" src={sass} alt="fcce" />
+						<p>Sass</p>
+					</div>
+					<div className="skill-div">
 						<img className="skills-imgs" src={git} alt="fcce" />
 						<p>git</p>
 					</div>
@@ -38,6 +43,10 @@ function skills() {
 					<div className="skill-div">
 						<img className="skills-imgs" src={gatsby} alt="fcce" />
 						<p>gatsby</p>
+					</div>
+					<div className="skill-div">
+						<i className="devicon-firebase-plain colored"></i>
+						<p>firebase</p>
 					</div>
 				</div>
 			</Layout>
