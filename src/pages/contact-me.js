@@ -4,7 +4,7 @@ import Seo from '../components/SEO';
 
 function contactMe() {
 	return (
-		<main className="contact">
+		<main className="contact-container">
 			<Seo title="Contact-me" />
 			<Layout>
 				<section className="lets-talk">
