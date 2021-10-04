@@ -88,6 +88,58 @@ body::-webkit-scrollbar-thumb {
 body {
 	background-color: var(--background);
 }
+.loading svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 50vw;
+}
+#k-polygon {
+	transform: translateX(100%);
+	animation-delay: 2s;
+	animation: K 2s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes K {
+	0% {
+		transform: translateX(100);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+#second-line-polygon {
+	transform: translateX(100%);
+	animation: Line 2s ease;
+	animation-fill-mode: forwards;
+}
+#first-line-polygon {
+	transform: translateX(-100%);
+	animation: Line 1.5s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes Line {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+#circle-path {
+	animation: Circle 2s ease;
+}
+@keyframes Circle {
+	0% {
+		fill: none;
+	}
+	100% {
+		fill: var(--lightWhite);
+	}
+}
 .layout {
 	position: relative;
 }
@@ -166,6 +218,11 @@ body {
 		font-size: 1.25rem;
 		margin-top: -1rem;
 	}
+}
+@media only screen and (min-width: 661px) {
+	.loading svg {
+	width: 20vw;
+}
 }
 
 /* --------------- Footer --------------- */
@@ -349,22 +406,18 @@ body {
 
 /* ---------------- Contact ------------------- */
 .lets-talk {
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	max-width: 500px;
 	width: 90vw;
 	padding: 4vh;
-	transform: translate(-50%, -50%);
 	background: rgba(0, 0, 0, 0.5);
-	box-sizing: border-box;
 	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 	border-radius: 10px;
 	font-family: 'Montserrat', sans-serif;
+	margin: 4vh auto;
 }
 .lets-talk h1 {
 	font-size: 1.8rem;
-	margin: 0 0 30px;
+	margin: 0 0 1rem 0;
 	padding: 0;
 	color: #fff;
 	text-align: center;
