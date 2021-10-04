@@ -8,7 +8,7 @@ function contactMe() {
 			<Seo title="Contact-me" />
 			<Layout>
 				<section className="lets-talk">
-					<h1>Reach out!</h1>
+					<h1>Get in Touch!</h1>
 					<form
 						className="form"
 						action="https://formspree.io/f/mwkawdny"
