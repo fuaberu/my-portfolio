@@ -361,7 +361,6 @@ body {
 	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 	border-radius: 10px;
 	font-family: 'Montserrat', sans-serif;
-	z-index: -1;
 }
 .lets-talk h1 {
 	font-size: 1.8rem;
