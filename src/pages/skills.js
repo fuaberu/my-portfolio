@@ -7,6 +7,7 @@ import git from 'devicon/icons/git/git-original.svg';
 import react from 'devicon/icons/react/react-original.svg';
 import gatsby from 'devicon/icons/gatsby/gatsby-original.svg';
 import sass from 'devicon/icons/sass/sass-original.svg';
+import firebase from 'devicon/icons/firebase/firebase-plain.svg';
 import Seo from '../components/SEO';
 
 function skills() {
@@ -17,35 +18,35 @@ function skills() {
 				<h1>skills</h1>
 				<div className="skills-section">
 					<div className="skill-div">
-						<img className="skills-imgs" src={html} alt="fcce" />
+						<img className="skills-imgs" src={html} alt="html5 icon" />
 						<p>html5</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={css} alt="fcce" />
+						<img className="skills-imgs" src={css} alt="css3 icon" />
 						<p>css3</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={javascript} alt="fcce" />
+						<img className="skills-imgs" src={javascript} alt="JavaScript icon" />
 						<p>javascript</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={sass} alt="fcce" />
+						<img className="skills-imgs" src={sass} alt="sass icon" />
 						<p>Sass</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={git} alt="fcce" />
+						<img className="skills-imgs" src={git} alt="git icon" />
 						<p>git</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={react} alt="fcce" />
+						<img className="skills-imgs" src={react} alt="react icon" />
 						<p>react</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={gatsby} alt="fcce" />
+						<img className="skills-imgs" src={gatsby} alt="gatsby icon" />
 						<p>gatsby</p>
 					</div>
 					<div className="skill-div">
-						<i className="devicon-firebase-plain colored"></i>
+						<img className="skills-imgs" src={firebase} alt="firebase icon" />
 						<p>firebase</p>
 					</div>
 				</div>
