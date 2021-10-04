@@ -11,9 +11,9 @@ import Seo from '../components/SEO';
 
 function index() {
 	return (
-		<Layout className="layout">
-			<Seo title="Main page" />
-			<section className="hero">
+		<main className="hero">
+			<Layout className="layout">
+				<Seo title="Main page" />
 				<ParticleBackground className="partilces" />
 				<div className="text">
 					<p className="hi">Hi, I am</p>
@@ -62,8 +62,8 @@ function index() {
 						/>
 					</a>
 				</div>
-			</section>
-		</Layout>
+			</Layout>
+		</main>
 	);
 }
 

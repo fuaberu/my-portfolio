@@ -4,11 +4,11 @@ import Seo from '../components/SEO';
 
 function contactMe() {
 	return (
-		<Layout>
-			<Seo title='Contact-me' />
-			<main className="lets-talk">
-				<h1>Reach out!</h1>
-				<section>
+		<main className="contact">
+			<Seo title="Contact-me" />
+			<Layout>
+				<section className="lets-talk">
+					<h1>Reach out!</h1>
 					<form
 						className="form"
 						action="https://formspree.io/f/mwkawdny"
@@ -47,7 +47,7 @@ function contactMe() {
 								type="textarea"
 								name="message"
 								id="message"
-								rows='4'
+								rows="4"
 								required
 							/>
 						</div>
@@ -56,8 +56,8 @@ function contactMe() {
 						</button>
 					</form>
 				</section>
-			</main>
-		</Layout>
+			</Layout>
+		</main>
 	);
 }
 
