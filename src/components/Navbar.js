@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import { MdDehaze } from 'react-icons/md';
 
 const Navbar = () => {
 	const [show, setShow] = useState(false);
@@ -10,9 +9,6 @@ const Navbar = () => {
 				<Link to="/" className="header-name">
 					Kevin Fabel
 				</Link>
-				<button className="nav-button" onClick={() => setShow(!show)}>
-					<MdDehaze style={{ color: 'white', fontSize: '2.5rem' }} />
-				</button>
 			</div>
 			<div className={show ? 'links-container show-link' : 'links-container'}>
 				<Link
