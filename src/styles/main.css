@@ -88,6 +88,15 @@ body::-webkit-scrollbar-thumb {
 body {
 	background-color: var(--background);
 }
+.wrapper {
+	transition: 0.5s ease;
+}
+.hide {
+	opacity: 0;
+}
+.loading {
+	transition: 0.5s ease;
+}
 .loading svg {
 	position: absolute;
 	top: 0;
@@ -414,6 +423,7 @@ body {
 	border-radius: 10px;
 	font-family: 'Montserrat', sans-serif;
 	margin: 4vh auto;
+	box-sizing: border-box;
 }
 .lets-talk h1 {
 	font-size: 1.8rem;
