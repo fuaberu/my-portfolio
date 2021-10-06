@@ -11,10 +11,12 @@ function portfolio() {
 			<Layout>
 				<h1>Portfolio</h1>
 				<PortfolioCard
-					description="Fake Store is an application design to be an ecommerce website to sell 
-					any product in the web. It has built in google and user authentication using firebase. Uses
-					FIREBASE FIRESTORE as the database to store the products and user's data.
-					Integrated with PAYPAL for checkout and payment."
+					description="Fake Store is an application design to be an 
+					eCommerce website to sell any product on the web. It has a
+					built-in Google and user authentication using Firebase. It
+					uses Firebase as the database to store the products and
+					users' data. And has integration with PAYPAL for checkout
+					and payment."
 					stacks={[
 						{ icon: 'javascript-plain colored', text: 'JavaScript' },
 						{ icon: 'sass-original colored', text: 'SASS' },
@@ -33,10 +35,11 @@ function portfolio() {
 					/>
 				</PortfolioCard>
 				<PortfolioCard
-					description="Weather-app is an application design to be easy 
-					to use as it contains all the information needed on one page.
-					Can check the on-time, hourly, and 7 days weather in any place.
-					Choose your configuration as wind speed, temperature, time, etc."
+					description="Weather App is an application design to be easy to use, 
+					as it contains all the information needed on one page. The user can
+					check the on-time, hourly, and seven days weather in any localization
+					in the world. In the Weather App, the users can choose their preferred
+					units configuration of wind speed, temperature, time, and others."
 					stacks={[
 						{ icon: 'html5-plain colored', text: 'HTML' },
 						{ icon: 'javascript-plain colored', text: 'JavaScript' },

@@ -19,11 +19,12 @@ function about() {
 					</p>
 					<p>
 						After discovering programming, I got a linking for the whole process
-						of web development. The journey to becoming self-taught has not been
-						an easy task. However, it is a rewarding one. I am fluent in Portuguese
-						and English	(spoken and written) and pursuing a high level of Japanese
-						proficiency. Apart from designing and programming websites, my
-						passions are travel and playing beach volleyball.
+						of web development and, started this journey to becoming a
+						self-taught developer. It has not been an easy task. However, it is
+						a rewarding one. I am fluent in Portuguese and English and, I am
+						pursuing a high level of Japanese proficiency. Apart from designing
+						and programming websites, my passions are travel and playing beach
+						volleyball.
 					</p>
 				</div>
 			</Layout>
