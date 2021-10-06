@@ -7,7 +7,7 @@ import download from 'react-useanimations/lib/download';
 import { AiOutlineMail } from 'react-icons/ai';
 import '../styles/main.css';
 import ParticleBackground from '../particle/ParticleBackground';
-import downloadFile from '../static/stop-cv-format.pdf';
+import downloadFile from '../static/Kevin_Fabel_Resume.pdf';
 import Seo from '../components/SEO';
 
 function Index() {
