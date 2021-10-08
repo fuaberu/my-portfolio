@@ -29,7 +29,7 @@ function portfolio() {
 				>
 					<StaticImage
 						src="../assets/eCommerce.png"
-						alt="mobile view of the eCommerce website"
+						alt="view of the eCommerce website"
 						className="portfolio-img"
 						placeholder="blurred"
 					/>
@@ -51,7 +51,32 @@ function portfolio() {
 				>
 					<StaticImage
 						src="../assets/weather.png"
-						alt="mobile view of the eCommerce website"
+						alt="view of the Weather App"
+						className="portfolio-img"
+						placeholder="blurred"
+					/>
+				</PortfolioCard>
+				<PortfolioCard
+					description="Web app built to help players in the game Albion 
+					Online to have a better understanding of the house system in-game
+					and to optimize the player profit. The website UI is built with
+					HTML and bootstrap 5. For the logic and unit validation of the
+					tables was used TypeScript, to ensure the quality of the data.
+					The player can choose from which city's market the prices will
+					be used and change the variables such as market taxes and
+					happiness of the worker in the house."
+					stacks={[
+						{ icon: 'html5-plain colored', text: 'HTML' },
+						{ icon: 'typescript-plain colored', text: 'TypeScript' },
+						{ icon: 'bootstrap-plain colored', text: 'Bootstrap' },
+					]}
+					title="Albion Labourer Calculator"
+					liveLink="https://albion-labourer-calculator.netlify.app/"
+					gitLink="https://github.com/fuaberu/albion-laborers-profit"
+				>
+					<StaticImage
+						src="../assets/albion-labourer-calculator.png"
+						alt="view of the Albion Labourer Calculator"
 						className="portfolio-img"
 						placeholder="blurred"
 					/>

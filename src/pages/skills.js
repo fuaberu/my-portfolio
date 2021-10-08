@@ -8,6 +8,8 @@ import react from 'devicon/icons/react/react-original.svg';
 import gatsby from 'devicon/icons/gatsby/gatsby-original.svg';
 import sass from 'devicon/icons/sass/sass-original.svg';
 import firebase from 'devicon/icons/firebase/firebase-plain.svg';
+import typescript from 'devicon/icons/typescript/typescript-original.svg';
+import bootstrap from 'devicon/icons/bootstrap/bootstrap-original.svg';
 import Seo from '../components/SEO';
 
 function skills() {
@@ -30,16 +32,20 @@ function skills() {
 						<p>javascript</p>
 					</div>
 					<div className="skill-div">
+						<img className="skills-imgs" src={typescript} alt="TypeScript icon" />
+						<p>typescript</p>
+					</div>
+					<div className="skill-div">
 						<img className="skills-imgs" src={sass} alt="sass icon" />
 						<p>Sass</p>
 					</div>
 					<div className="skill-div">
-						<img className="skills-imgs" src={git} alt="git icon" />
-						<p>git</p>
-					</div>
-					<div className="skill-div">
 						<img className="skills-imgs" src={react} alt="react icon" />
 						<p>react</p>
+					</div>
+					<div className="skill-div">
+						<img className="skills-imgs" src={git} alt="git icon" />
+						<p>git</p>
 					</div>
 					<div className="skill-div">
 						<img className="skills-imgs" src={gatsby} alt="gatsby icon" />
@@ -48,6 +54,10 @@ function skills() {
 					<div className="skill-div">
 						<img className="skills-imgs" src={firebase} alt="firebase icon" />
 						<p>firebase</p>
+					</div>
+					<div className="skill-div">
+						<img className="skills-imgs" src={bootstrap} alt="Bootstrap icon" />
+						<p>bootstrap</p>
 					</div>
 				</div>
 			</Layout>
