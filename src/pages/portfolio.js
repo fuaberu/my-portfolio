@@ -11,6 +11,30 @@ function portfolio() {
 			<Layout>
 				<h1>Portfolio</h1>
 				<PortfolioCard
+					description="SayHi is a messenger application to send real-time 
+					messages. The application has a front-end in React.js with
+					styled-components and a backend as an API in node.js with express.
+					It Uses MongoDB as the database to store the messages and users'
+					data. And in integrated with Socket.io for the real-time data
+					connection between users."
+					stacks={[
+						{ icon: 'react-original colored', text: 'React' },
+						{ icon: 'nodejs-plain colored', text: 'Nodejs' },
+						{ icon: 'express-original-wordmark', text: 'Express' },
+						{ icon: 'mongodb-plain colored', text: 'MongoDB' },
+					]}
+					title="SayHi"
+					liveLink="https://say-hi.netlify.app/"
+					gitLink="https://github.com/fuaberu/say-hi-client"
+				>
+					<StaticImage
+						src="../assets/sayHi.png"
+						alt="view of the SayHi messenger website"
+						className="portfolio-img"
+						placeholder="blurred"
+					/>
+				</PortfolioCard>
+				<PortfolioCard
 					description="Fake Store is an application design to be an 
 					eCommerce website to sell any product on the web. It has a
 					built-in Google and user authentication using Firebase. It
@@ -23,7 +47,7 @@ function portfolio() {
 						{ icon: 'react-original colored', text: 'React' },
 						{ icon: 'firebase-plain colored', text: 'firebase' },
 					]}
-					title="fake store"
+					title="Fake Store"
 					liveLink="https://my-ecommerce-3ce47.web.app/"
 					gitLink="https://github.com/fuaberu/ecommerce-website"
 				>
