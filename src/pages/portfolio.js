@@ -20,7 +20,7 @@ function portfolio() {
 					stacks={[
 						{ icon: 'react-original colored', text: 'React' },
 						{ icon: 'nodejs-plain colored', text: 'Nodejs' },
-						{ icon: 'express-original-wordmark', text: 'Express' },
+						{ icon: 'express-original', text: 'Express' },
 						{ icon: 'mongodb-plain colored', text: 'MongoDB' },
 					]}
 					title="SayHi"
