@@ -35,6 +35,24 @@ function portfolio() {
 					/>
 				</PortfolioCard>
 				<PortfolioCard
+					description="Photo Album is a photo gallery using photos from the pexels API."
+					stacks={[
+						{ icon: 'react-original colored', text: 'React' },
+						{ icon: 'sass-original colored', text: 'SASS' },
+						{ icon: 'redux-original colored', text: 'Redux' },
+					]}
+					title="Photo Album"
+					liveLink="https://photo-gallery-fuaberu.netlify.app/"
+					gitLink="https://github.com/fuaberu/photo-album"
+				>
+					<StaticImage
+						src="../assets/photo-gallery.png"
+						alt="view of the photo-galley website"
+						className="portfolio-img"
+						placeholder="blurred"
+					/>
+				</PortfolioCard>
+				<PortfolioCard
 					description="Fake Store is an application design to be an 
 					eCommerce website to sell any product on the web. It has a
 					built-in Google and user authentication using Firebase. It
