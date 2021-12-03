@@ -35,6 +35,23 @@ function portfolio() {
 					/>
 				</PortfolioCard>
 				<PortfolioCard
+					description="CryptoBoard is a cryptocurrency information board. Displays the information gathered from the Coinranking API, and Bing news API as statistics or, in the form of charts utilizing the historical data and the chart.js. It has the redux as state management for the website theme and gets the initial state from the OS."
+					stacks={[
+						{ icon: 'react-original colored', text: 'React' },
+						{ icon: 'redux-original colored', text: 'Redux' },
+					]}
+					title="CryptoBoard"
+					liveLink="https://cryptos-board.netlify.app/"
+					gitLink="https://github.com/fuaberu/crypto-board/"
+				>
+					<StaticImage
+						src="../assets/cryptoboard.png"
+						alt="view of the CryptoBoard website"
+						className="portfolio-img"
+						placeholder="blurred"
+					/>
+				</PortfolioCard>
+				<PortfolioCard
 					description="Photo Album is a photo gallery using photos from the pexels API."
 					stacks={[
 						{ icon: 'react-original colored', text: 'React' },
